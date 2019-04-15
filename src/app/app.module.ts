@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './compartilhado/cabecalho/cabecalho.componen
 import { BemVindoComponent } from './paginas/publico/bem-vindo/bem-vindo.component';
 import { LoginComponent } from './paginas/publico/login/login.component';
 import { CadastroComponent } from './paginas/publico/cadastro/cadastro.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CadastroComponent } from './paginas/publico/cadastro/cadastro.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
