@@ -8,6 +8,7 @@ import { BemVindoComponent } from './paginas/publico/bem-vindo/bem-vindo.compone
 import { LoginComponent } from './paginas/publico/login/login.component';
 import { CadastroComponent } from './paginas/publico/cadastro/cadastro.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DashboardComponent } from './paginas/restrito/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     CabecalhoComponent,
     BemVindoComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
